@@ -1,25 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import {Table} from './components';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    return (
+    <div className = "App">
+      <h2>Gabriel's Tables</h2>
+      <p>Color all is not working yet but its not mandatory, instead the hover is working</p>
+      <Table className = "table-class"/>
     </div>
-  );
+    )
 }
+
+
 
 export default App;
